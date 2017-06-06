@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_QRDevice"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Generate QR for device" />
+        <item
+            android:id="@+id/nav_QRemp"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Generate QR for Employee" />
+        <item
+            android:id="@+id/nav_Ownership"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ownership Transfer" />
+        <item
+            android:id="@+id/release_device"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Release Device" />
+        <item
+            android:id="@+id/Devicedb"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Device Database" />
+        <item
+            android:id="@+id/empDB"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Employee Database" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="About" />
+            <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Help" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
