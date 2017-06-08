@@ -1,14 +1,6 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\3ab37ff9149411ca351bc233ddd3644b631897b4\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\e4094a2b164dc5edd193a7889823171835fbc431\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\kripatel\\AndroidStudioProjects\\BombardierTransportation\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\3ab37ff9149411ca351bc233ddd3644b631897b4\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

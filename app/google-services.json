@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "589043844399",
+    "firebase_url": "https://bt-device-manager-cbc59.firebaseio.com",
+    "project_id": "bt-device-manager-cbc59",
+    "storage_bucket": "bt-device-manager-cbc59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589043844399:android:c1e63bc4ffaaaab9",
+        "android_client_info": {
+          "package_name": "bt.com.bombardiertransportation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589043844399-qn7et1pa13e629g3e2kahodlsj28ftsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bt.com.bombardiertransportation",
+            "certificate_hash": "c5e852762d5917f81430df5b29592343be50a069"
+          }
+        },
+        {
+          "client_id": "589043844399-65dl18gpokbmmtgkp27m8325vv6975hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIEioI7uNLFNYzeR-USPgzd9m9mfhjnu0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589043844399-65dl18gpokbmmtgkp27m8325vv6975hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

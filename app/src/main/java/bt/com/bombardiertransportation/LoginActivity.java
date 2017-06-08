@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity{
                         password.getText().toString().equals("admin")) {
                     Toast.makeText(getApplicationContext(),
                             "Redirecting...",Toast.LENGTH_SHORT).show();
-                    Intent intent2=new Intent(context,GenerateQRforDevice.class);
+                    Intent intent2=new Intent(context,MainActivity.class);
 
                     context.startActivity(intent2);
 

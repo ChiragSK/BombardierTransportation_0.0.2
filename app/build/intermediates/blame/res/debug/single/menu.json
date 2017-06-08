@@ -1,23 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\kripatel\\AndroidStudioProjects\\BombardierTransportation\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_generate_qrfor_device_drawer.xml",
-        "source": "C:\\Users\\kripatel\\AndroidStudioProjects\\BombardierTransportation\\app\\src\\main\\res\\menu\\activity_generate_qrfor_device_drawer.xml"
-    },
-    {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\generate_qrfor_device.xml",
         "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\src\\main\\res\\menu\\generate_qrfor_device.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_generate_qrfor_device_drawer.xml",
-        "source": "D:\\AndroidStudioProjects\\BombardierTransportation\\app\\src\\main\\res\\menu\\activity_generate_qrfor_device_drawer.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation\\app\\build\\intermediates\\res\\merged\\debug\\menu\\generate_qrfor_device.xml",
-        "source": "D:\\AndroidStudioProjects\\BombardierTransportation\\app\\src\\main\\res\\menu\\generate_qrfor_device.xml"
-    },
-    {
-        "merged": "C:\\Users\\kripatel\\AndroidStudioProjects\\BombardierTransportation\\app\\build\\intermediates\\res\\merged\\debug\\menu\\generate_qrfor_device.xml",
-        "source": "C:\\Users\\kripatel\\AndroidStudioProjects\\BombardierTransportation\\app\\src\\main\\res\\menu\\generate_qrfor_device.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_generate_qrfor_device_drawer.xml",
