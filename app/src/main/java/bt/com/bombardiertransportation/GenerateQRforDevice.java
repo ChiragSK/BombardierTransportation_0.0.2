@@ -13,9 +13,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.support.annotation.NonNull;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class GenerateQRforDevice extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private FirebaseAuth.AuthStateListener authListener;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +48,23 @@ public class GenerateQRforDevice extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        //get firebase auth instance
+        auth = FirebaseAuth.getInstance();
+
+        authListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user == null) {
+                    // user auth state is changed - user is null
+                    // launch login activity
+                    startActivity(new Intent(GenerateQRforDevice.this, LoginActivity.class));
+                    finish();
+                }
+            }
+        };
+
     }
 
     @Override
@@ -97,7 +121,8 @@ public class GenerateQRforDevice extends AppCompatActivity
 
         }else if(id == R.id.logout)
         {
-
+            auth.addAuthStateListener(authListener);
+            auth.signOut();
         }else if(id == R.id.about)
         {
 

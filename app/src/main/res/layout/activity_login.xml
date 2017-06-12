@@ -45,7 +45,7 @@
         android:id="@+id/username_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User Name"
+        android:text="Email"
         android:layout_above="@+id/password_id"
         android:layout_alignEnd="@+id/password_id"
         android:layout_marginBottom="18dp" />
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="User Name"
+        android:hint="BT Email Id"
         android:layout_alignBaseline="@+id/username_id"
         android:layout_alignBottom="@+id/username_id"
         android:layout_toEndOf="@+id/username_id"

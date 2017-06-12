@@ -43,7 +43,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ch
 MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Chirag\.android\build-cache\ec1091a910de6b13187e1b710bc27600e873bc35\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:19:5-29:19
 MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Chirag\.android\build-cache\a0f9bf2e310f3195867c21c5d36235a230b3406e\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Chirag\.android\build-cache\13c478d6e17169b426d4ae6dbeea3770221a57ab\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Chirag\.android\build-cache\1cc9b2b8ebd83d94e1795b35b64f7d72d5f43f1d\output\AndroidManifest.xml:19:5-21:19
@@ -104,12 +107,15 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Chirag
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Chirag\.android\build-cache\44312d23935f58c2ffeee902d5ff3ce08d2b3afb\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Chirag\.android\build-cache\303a98fa6be5c129c591a769b8c94ef442a1489d\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Chirag\.android\build-cache\c0eabd113535313f057cc2e33842f04dd0582d43\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\Chirag\.android\build-cache\216d85b5e6678f2daa088cfa55f2ab816b35563f\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\Chirag\.android\build-cache\d932d139877101041e901fa65090de5566cde4fb\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Chirag\.android\build-cache\ec1091a910de6b13187e1b710bc27600e873bc35\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\Chirag\.android\build-cache\216d85b5e6678f2daa088cfa55f2ab816b35563f\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\Chirag\.android\build-cache\d932d139877101041e901fa65090de5566cde4fb\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Chirag\.android\build-cache\a0f9bf2e310f3195867c21c5d36235a230b3406e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Chirag\.android\build-cache\13c478d6e17169b426d4ae6dbeea3770221a57ab\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Chirag\.android\build-cache\1cc9b2b8ebd83d94e1795b35b64f7d72d5f43f1d\output\AndroidManifest.xml:17:5-42
@@ -188,6 +194,20 @@ MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag
 		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:32:111-135
 	android:name
 		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:32:16-87
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:25:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:22:5-81
 	android:name
@@ -244,6 +264,14 @@ action#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:46:17-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:46:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:6:9-194
 	android:authorities
