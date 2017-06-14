@@ -140,6 +140,10 @@
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\e4094a2b164dc5edd193a7889823171835fbc431\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
+        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_frag2.xml",
+        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\src\\main\\res\\layout\\fragment_frag2.xml"
+    },
+    {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\e4094a2b164dc5edd193a7889823171835fbc431\\output\\res\\layout\\design_layout_tab_text.xml"
     },
@@ -170,6 +174,10 @@
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_frag3.xml",
+        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\src\\main\\res\\layout\\fragment_frag3.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -210,6 +218,10 @@
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_frag1.xml",
+        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\src\\main\\res\\layout\\fragment_frag1.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_generate_qrfor_device.xml",

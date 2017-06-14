@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -62,6 +64,8 @@ public class GenerateQRforDevice extends AppCompatActivity
                     startActivity(new Intent(GenerateQRforDevice.this, LoginActivity.class));
                     finish();
                 }
+
+                displaySelectedScreen(R.id.nav_QRemp);
             }
         };
 
@@ -104,35 +108,52 @@ public class GenerateQRforDevice extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-        if (id == R.id.nav_QRDevice) {
-
-
-
-        } else if (id == R.id.nav_QRemp) {
-
-        } else if (id == R.id.nav_Ownership) {
-
-        } else if (id == R.id.release_device) {
-
-        } else if (id == R.id.Devicedb) {
-
-        } else if (id == R.id.empDB) {
-
-        }else if(id == R.id.logout)
+        if  (id == R.id.nav_QRDevice)
+        {
+            Intent intent = new Intent(GenerateQRforDevice.this, MainActivity.class);
+            startActivity(intent);
+        }
+        else if(id == R.id.logout)
         {
             auth.addAuthStateListener(authListener);
             auth.signOut();
-        }else if(id == R.id.about)
+        }
+        else
         {
+            displaySelectedScreen(id);
+        }
 
-        }else if(id == R.id.help)
-        {
+        return true;
+    }
 
+    private void displaySelectedScreen(int itemId) {
+
+        //creating fragment object
+        Fragment fragment = null;
+
+        //initializing the fragment object which is selected
+        switch (itemId) {
+            case R.id.nav_QRemp:
+                fragment = new frag1();
+                break;
+            case R.id.nav_Ownership:
+                fragment = new frag2();
+                break;
+            case R.id.release_device:
+                fragment = new frag3();
+                break;
+        }
+
+        //replacing the fragment
+        if (fragment != null) {
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, fragment);
+            ft.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
-        return true;
     }
 }
+
+
