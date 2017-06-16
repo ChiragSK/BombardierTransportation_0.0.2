@@ -196,12 +196,12 @@
         "source": "C:\\Users\\kripatel\\.android\\build-cache\\dfc5e459b4681dd803bf96add93faa0ca48e9111\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kripal.PNG",
         "source": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\src\\main\\res\\drawable\\kripal.PNG"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
