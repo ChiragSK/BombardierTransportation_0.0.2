@@ -3,45 +3,39 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_QRDevice"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Generate QR for device" />
+            android:id="@+id/search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search for Device" />
         <item
-            android:id="@+id/nav_QRemp"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Generate QR for Employee" />
+            android:id="@+id/nav_QRDevice"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Generate QR" />
+
         <item
             android:id="@+id/nav_Ownership"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@android:drawable/ic_media_play"
             android:title="Ownership Transfer" />
         <item
             android:id="@+id/release_device"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@android:drawable/ic_menu_delete"
             android:title="Release Device" />
-        <item
-            android:id="@+id/Devicedb"
-            android:icon="@drawable/ic_menu_send"
-            android:title="Device Database" />
-        <item
-            android:id="@+id/empDB"
-            android:icon="@drawable/ic_menu_send"
-            android:title="Employee Database" />
+
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Other">
         <menu>
             <item
                 android:id="@+id/about"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="About" />
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="About Us" />
             <item
-            android:id="@+id/help"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Help" />
+                android:id="@+id/privacy"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="Privacy Policy" />
 
             <item
                 android:id="@+id/logout"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@android:drawable/ic_lock_lock"
                 android:title="Log Out" />
         </menu>
     </item>

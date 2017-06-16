@@ -1,26 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_menu_share.png",
-        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_share.png"
-    },
-    {
-        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_menu_gallery.png",
-        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_gallery.png"
-    },
-    {
-        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_menu_camera.png",
-        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_camera.png"
-    },
-    {
-        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_menu_slideshow.png",
-        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_slideshow.png"
-    },
-    {
-        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_menu_send.png",
-        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_send.png"
-    },
-    {
-        "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_menu_manage.png",
-        "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_manage.png"
+        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png",
+        "source": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png"
     }
 ]

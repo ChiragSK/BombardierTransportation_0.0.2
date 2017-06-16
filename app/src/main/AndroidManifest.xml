@@ -28,9 +28,11 @@
             android:name=".GenerateQRforDevice"
             android:label="Bombardier Transportation"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main"></activity>
+
+        <activity android:name=".Aboutus"
+            android:label="About Us"/>
+        <activity android:name=".Privacy"
+            android:label="Privacy Policy"/>
     </application>
 
 </manifest>

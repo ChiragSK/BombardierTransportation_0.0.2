@@ -1,290 +1,296 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:6:5-71
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:6:22-68
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:7:5-71
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:7:22-68
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:8:5-72
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:8:22-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:9:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:20:5-66
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\kripatel\.android\build-cache\cf46a440af198cdcbe643b45613e9a28a5036545\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:11:5-34:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\Chirag\.android\build-cache\e4094a2b164dc5edd193a7889823171835fbc431\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chirag\.android\build-cache\62bc66f689ab564a44f29129a1ee7560f69262c3\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Chirag\.android\build-cache\6974ff9ebe356f9ad6ddc61880c9ee4df03e5532\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Chirag\.android\build-cache\74be0bef8e8a0211a4b34406aa50702f88c8be98\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Chirag\.android\build-cache\303a98fa6be5c129c591a769b8c94ef442a1489d\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Chirag\.android\build-cache\c0eabd113535313f057cc2e33842f04dd0582d43\output\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Chirag\.android\build-cache\ec1091a910de6b13187e1b710bc27600e873bc35\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Chirag\.android\build-cache\a0f9bf2e310f3195867c21c5d36235a230b3406e\output\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Chirag\.android\build-cache\13c478d6e17169b426d4ae6dbeea3770221a57ab\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Chirag\.android\build-cache\1cc9b2b8ebd83d94e1795b35b64f7d72d5f43f1d\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Chirag\.android\build-cache\0ec820c446e5680b675a9cef5470f2029e98c863\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Chirag\.android\build-cache\20a9ac8076d5f47c45380453d08128b67662b16c\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Chirag\.android\build-cache\8f1ad1f87e72bacb3fccb4ed1661768fd680bd83\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Chirag\.android\build-cache\dad6bb0c44fad238d358fbbda2e94cb020e0ba56\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Chirag\.android\build-cache\d71d0a415a44566a52b124017936cb1cc2b900a8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Chirag\.android\build-cache\3d9d2fe7d8d225a066a521fbfc1e2656ec8630ae\output\AndroidManifest.xml:29:5-20
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:11:5-36:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kripatel\.android\build-cache\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\ca36515d45ce8aeb4895c7ae14337ab3029120e8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\d4b0f723efd64cd8f60222efa5fb4b323af1c69d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kripatel\.android\build-cache\06380bc6cb62b6a1a3158251627b15a3280e43f0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kripatel\.android\build-cache\9acd921cf9d489753592e3d9f67075932350b9ed\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\kripatel\.android\build-cache\42143cdacf889da36f4b0a560faca2c0502bd231\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\kripatel\.android\build-cache\cf46a440af198cdcbe643b45613e9a28a5036545\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\kripatel\.android\build-cache\f2e992e4f50a74494e90c99fc5d0bc959d6dd2d6\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kripatel\.android\build-cache\dfc5e459b4681dd803bf96add93faa0ca48e9111\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\kripatel\.android\build-cache\dbb91011a88f2b295d80c45036df6445e2e98313\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kripatel\.android\build-cache\665138b4fd5ad772f6aedb81015191f8a186006b\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripatel\.android\build-cache\222da922de15c669b7a06e1c8a61c86d132e3cae\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kripatel\.android\build-cache\32e65024e7c6a2d7363797e9dece8a288403388f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kripatel\.android\build-cache\99a042ae3b7e2195f61b2568c0d245b6f32c5b6d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kripatel\.android\build-cache\ac084f16d3c7af2b1dc9f6153e42e572cdacc8f1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kripatel\.android\build-cache\3863b4b2eace72f36c7a151dd6fb08f676da552a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kripatel\.android\build-cache\67591686623ec893db321d0943b2ac6f119eae53\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kripatel\.android\build-cache\9cda6c0178911b56bf498bc78fa0646ac1e3334a\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:14:9-35
 	android:supportsRtl
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:16:9-35
 	android:roundIcon
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:15:9-54
 	android:allowBackup
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:13:9-36
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:13:9-36
 	android:theme
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:17:9-40
 activity#bt.com.bombardiertransportation.LoginActivity
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:label
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:20:13-54
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:20:13-54
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:19:13-42
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:19:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:24:27-74
 activity#bt.com.bombardiertransportation.GenerateQRforDevice
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:27:9-30:59
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:27:9-30:59
 	android:label
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:29:13-54
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:29:13-54
 	android:theme
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:28:13-48
-activity#bt.com.bombardiertransportation.MainActivity
-ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:31:9-33:68
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:28:13-48
+activity#bt.com.bombardiertransportation.Aboutus
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:32:9-33:39
 	android:label
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:32:19-42
+activity#bt.com.bombardiertransportation.Privacy
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:34:9-35:45
+	android:label
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:34:19-42
 uses-sdk
-INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] C:\Users\Chirag\.android\build-cache\e4094a2b164dc5edd193a7889823171835fbc431\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chirag\.android\build-cache\62bc66f689ab564a44f29129a1ee7560f69262c3\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Chirag\.android\build-cache\6974ff9ebe356f9ad6ddc61880c9ee4df03e5532\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Chirag\.android\build-cache\74be0bef8e8a0211a4b34406aa50702f88c8be98\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Chirag\.android\build-cache\44312d23935f58c2ffeee902d5ff3ce08d2b3afb\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Chirag\.android\build-cache\303a98fa6be5c129c591a769b8c94ef442a1489d\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Chirag\.android\build-cache\c0eabd113535313f057cc2e33842f04dd0582d43\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Chirag\.android\build-cache\ec1091a910de6b13187e1b710bc27600e873bc35\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\Chirag\.android\build-cache\216d85b5e6678f2daa088cfa55f2ab816b35563f\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\Chirag\.android\build-cache\d932d139877101041e901fa65090de5566cde4fb\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Chirag\.android\build-cache\a0f9bf2e310f3195867c21c5d36235a230b3406e\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Chirag\.android\build-cache\13c478d6e17169b426d4ae6dbeea3770221a57ab\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Chirag\.android\build-cache\1cc9b2b8ebd83d94e1795b35b64f7d72d5f43f1d\output\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Chirag\.android\build-cache\0ec820c446e5680b675a9cef5470f2029e98c863\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Chirag\.android\build-cache\20a9ac8076d5f47c45380453d08128b67662b16c\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Chirag\.android\build-cache\8f1ad1f87e72bacb3fccb4ed1661768fd680bd83\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Chirag\.android\build-cache\dad6bb0c44fad238d358fbbda2e94cb020e0ba56\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Chirag\.android\build-cache\d71d0a415a44566a52b124017936cb1cc2b900a8\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Chirag\.android\build-cache\3d9d2fe7d8d225a066a521fbfc1e2656ec8630ae\output\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kripatel\.android\build-cache\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\ca36515d45ce8aeb4895c7ae14337ab3029120e8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\d4b0f723efd64cd8f60222efa5fb4b323af1c69d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kripatel\.android\build-cache\12eaf0798b97582de85df1d00bab38053e6d78ba\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kripatel\.android\build-cache\06380bc6cb62b6a1a3158251627b15a3280e43f0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kripatel\.android\build-cache\9acd921cf9d489753592e3d9f67075932350b9ed\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\kripatel\.android\build-cache\42143cdacf889da36f4b0a560faca2c0502bd231\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\kripatel\.android\build-cache\cf46a440af198cdcbe643b45613e9a28a5036545\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\kripatel\.android\build-cache\009e0e6b6c0a9bac1dc70498c01109ea95904661\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\kripatel\.android\build-cache\1a74b609eb24a332e8080faa0bb33553f280d3e0\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\kripatel\.android\build-cache\f2e992e4f50a74494e90c99fc5d0bc959d6dd2d6\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kripatel\.android\build-cache\dfc5e459b4681dd803bf96add93faa0ca48e9111\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\kripatel\.android\build-cache\dbb91011a88f2b295d80c45036df6445e2e98313\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kripatel\.android\build-cache\665138b4fd5ad772f6aedb81015191f8a186006b\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripatel\.android\build-cache\222da922de15c669b7a06e1c8a61c86d132e3cae\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kripatel\.android\build-cache\32e65024e7c6a2d7363797e9dece8a288403388f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kripatel\.android\build-cache\99a042ae3b7e2195f61b2568c0d245b6f32c5b6d\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kripatel\.android\build-cache\ac084f16d3c7af2b1dc9f6153e42e572cdacc8f1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kripatel\.android\build-cache\3863b4b2eace72f36c7a151dd6fb08f676da552a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kripatel\.android\build-cache\67591686623ec893db321d0943b2ac6f119eae53\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kripatel\.android\build-cache\9cda6c0178911b56bf498bc78fa0646ac1e3334a\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Chirag\.android\build-cache\e4094a2b164dc5edd193a7889823171835fbc431\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Chirag\.android\build-cache\e4094a2b164dc5edd193a7889823171835fbc431\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chirag\.android\build-cache\62bc66f689ab564a44f29129a1ee7560f69262c3\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Chirag\.android\build-cache\6974ff9ebe356f9ad6ddc61880c9ee4df03e5532\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Chirag\.android\build-cache\74be0bef8e8a0211a4b34406aa50702f88c8be98\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Chirag\.android\build-cache\44312d23935f58c2ffeee902d5ff3ce08d2b3afb\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Chirag\.android\build-cache\303a98fa6be5c129c591a769b8c94ef442a1489d\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Chirag\.android\build-cache\0ec820c446e5680b675a9cef5470f2029e98c863\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Chirag\.android\build-cache\20a9ac8076d5f47c45380453d08128b67662b16c\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Chirag\.android\build-cache\8f1ad1f87e72bacb3fccb4ed1661768fd680bd83\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Chirag\.android\build-cache\dad6bb0c44fad238d358fbbda2e94cb020e0ba56\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Chirag\.android\build-cache\d71d0a415a44566a52b124017936cb1cc2b900a8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Chirag\.android\build-cache\3d9d2fe7d8d225a066a521fbfc1e2656ec8630ae\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kripatel\.android\build-cache\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\ca36515d45ce8aeb4895c7ae14337ab3029120e8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\d4b0f723efd64cd8f60222efa5fb4b323af1c69d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kripatel\.android\build-cache\12eaf0798b97582de85df1d00bab38053e6d78ba\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kripatel\.android\build-cache\06380bc6cb62b6a1a3158251627b15a3280e43f0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kripatel\.android\build-cache\32e65024e7c6a2d7363797e9dece8a288403388f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kripatel\.android\build-cache\99a042ae3b7e2195f61b2568c0d245b6f32c5b6d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kripatel\.android\build-cache\ac084f16d3c7af2b1dc9f6153e42e572cdacc8f1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kripatel\.android\build-cache\3863b4b2eace72f36c7a151dd6fb08f676da552a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kripatel\.android\build-cache\67591686623ec893db321d0943b2ac6f119eae53\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kripatel\.android\build-cache\9cda6c0178911b56bf498bc78fa0646ac1e3334a\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Chirag\.android\build-cache\e4094a2b164dc5edd193a7889823171835fbc431\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Chirag\.android\build-cache\e4094a2b164dc5edd193a7889823171835fbc431\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\kripatel\.android\build-cache\cf46a440af198cdcbe643b45613e9a28a5036545\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\kripatel\.android\build-cache\cf46a440af198cdcbe643b45613e9a28a5036545\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\kripatel\.android\build-cache\cf46a440af198cdcbe643b45613e9a28a5036545\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Chirag\.android\build-cache\a3c2729524c65396e1f59c02229a202673e07e37\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\kripatel\.android\build-cache\cf46a440af198cdcbe643b45613e9a28a5036545\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Chirag\.android\build-cache\190b2a7901c74b1bb64ebf53c25904e7763bdad4\output\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\kripatel\.android\build-cache\0a946cace6451badb82b224ae606dc7dfc41467c\output\AndroidManifest.xml:32:16-87
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:23:18-87
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:24:13-26:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:24:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Chirag\.android\build-cache\a68654f7f763f3121270ee62fdc40078006f102c\output\AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\kripatel\.android\build-cache\2d684efc8f267f2f12e4d8ba5454b0325281dce5\output\AndroidManifest.xml:25:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:32:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:44:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Chirag\.android\build-cache\3aa44a2869058c17d2b8fb3dfbf12c6e02927193\output\AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android\build-cache\2566aea7c9305d304c726d8e22b2c22cff53a4ff\output\AndroidManifest.xml:46:25-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kripatel\.android\build-cache\dfc5e459b4681dd803bf96add93faa0ca48e9111\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kripatel\.android\build-cache\dfc5e459b4681dd803bf96add93faa0ca48e9111\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kripatel\.android\build-cache\dfc5e459b4681dd803bf96add93faa0ca48e9111\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Chirag\.android\build-cache\ed2837ffc7a6880aafe9c5adb9c515152a1c24b8\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kripatel\.android\build-cache\dfc5e459b4681dd803bf96add93faa0ca48e9111\output\AndroidManifest.xml:19:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\kripatel\.android\build-cache\dbb91011a88f2b295d80c45036df6445e2e98313\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\kripatel\.android\build-cache\dbb91011a88f2b295d80c45036df6445e2e98313\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\kripatel\.android\build-cache\dbb91011a88f2b295d80c45036df6445e2e98313\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\kripatel\.android\build-cache\dbb91011a88f2b295d80c45036df6445e2e98313\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Chirag\.android\build-cache\8b80c194e8f9260506fb9cb205ae9f38730a0d31\output\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\kripatel\.android\build-cache\dbb91011a88f2b295d80c45036df6445e2e98313\output\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Chirag\.android\build-cache\1cc9b2b8ebd83d94e1795b35b64f7d72d5f43f1d\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripatel\.android\build-cache\222da922de15c669b7a06e1c8a61c86d132e3cae\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Chirag\.android\build-cache\1cc9b2b8ebd83d94e1795b35b64f7d72d5f43f1d\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripatel\.android\build-cache\222da922de15c669b7a06e1c8a61c86d132e3cae\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Chirag\.android\build-cache\1cc9b2b8ebd83d94e1795b35b64f7d72d5f43f1d\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripatel\.android\build-cache\222da922de15c669b7a06e1c8a61c86d132e3cae\output\AndroidManifest.xml:20:20-65

@@ -1,4 +1,4 @@
-#Tue Jun 13 21:55:44 IST 2017
-base.0=C\:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+#Fri Jun 16 17:00:11 IST 2017
+base.0=D\:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
 renamed.0=classes.dex
-file.0=C\:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex
+file.0=D\:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex
