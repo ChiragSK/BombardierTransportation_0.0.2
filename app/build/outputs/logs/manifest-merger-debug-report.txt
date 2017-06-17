@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml
@@ -33,7 +33,7 @@ MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android
 	android:name
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:11:5-36:19
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:11:5-38:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kripatel\.android\build-cache\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\ca36515d45ce8aeb4895c7ae14337ab3029120e8\output\AndroidManifest.xml:26:5-20
@@ -56,6 +56,7 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kripatel\
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kripatel\.android\build-cache\3863b4b2eace72f36c7a151dd6fb08f676da552a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kripatel\.android\build-cache\67591686623ec893db321d0943b2ac6f119eae53\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kripatel\.android\build-cache\9cda6c0178911b56bf498bc78fa0646ac1e3334a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:45:5-53:19
 	android:label
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:14:9-35
 	android:supportsRtl
@@ -93,17 +94,23 @@ ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\
 	android:name
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:28:13-48
 activity#bt.com.bombardiertransportation.Aboutus
-ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:32:9-33:39
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:label
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:32:19-42
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:32:13-36
 activity#bt.com.bombardiertransportation.Privacy
-ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:34:9-35:45
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:34:9-36:46
 	android:label
-		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:35:13-43
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:36:13-43
 	android:name
-		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:34:19-42
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:35:13-36
+activity#bt.com.bombardiertransportation.QRcreate
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:37:9-89
+	android:label
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:37:44-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml:37:19-43
 uses-sdk
 INJECTED from D:\AndroidStudioProjects\BombardierTransportation_0.0.2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:21:5-23:62
@@ -131,6 +138,7 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kripatel\
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kripatel\.android\build-cache\3863b4b2eace72f36c7a151dd6fb08f676da552a\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kripatel\.android\build-cache\67591686623ec893db321d0943b2ac6f119eae53\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kripatel\.android\build-cache\9cda6c0178911b56bf498bc78fa0646ac1e3334a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:19:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -294,3 +302,57 @@ ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripa
 		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripatel\.android\build-cache\222da922de15c669b7a06e1c8a61c86d132e3cae\output\AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kripatel\.android\build-cache\222da922de15c669b7a06e1c8a61c86d132e3cae\output\AndroidManifest.xml:20:20-65
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:46:9-52:63
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:48:13-45
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:49:13-56
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\kripatel\.android\build-cache\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\output\AndroidManifest.xml:47:13-74

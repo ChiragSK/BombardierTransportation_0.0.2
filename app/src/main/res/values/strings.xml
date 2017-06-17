@@ -32,14 +32,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string-array name="DeviceType">
-            <item>TCN-GW-S</item>
-            <item>TCN-GW-C</item>
-            <item>IP-RS</item>
-            <item>IP-Viper</item>
-            <item>IP-TS</item>
-            <item>IP-CS</item>
-            <item>CCUS</item>
-            <item>CCUO</item>
+        <item>TCN-GW-S</item>
+        <item>TCN-GW-C</item>
+        <item>IP-RS</item>
+        <item>IP-Viper</item>
+        <item>IP-TS</item>
+        <item>IP-CS</item>
+        <item>CCUS</item>
+        <item>CCUO</item>
     </string-array>
 
 
