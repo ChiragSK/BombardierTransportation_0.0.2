@@ -1,7 +1,0 @@
-#Tue Jun 13 21:55:47 IST 2017
-base.0=C\:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ac8abf08fe1cdc5d7ddff199cbd5e21fc0d78c26
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7dd589c5e3238781f578c2236fa8bc0d5cdf5f59\\classes.dex
-base.1=C\:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7dd589c5e3238781f578c2236fa8bc0d5cdf5f59
-file.0=C\:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ac8abf08fe1cdc5d7ddff199cbd5e21fc0d78c26\\classes.dex

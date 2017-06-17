@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="DeviceType">
+            <item>TCN-GW-S</item>
+            <item>TCN-GW-C</item>
+            <item>IP-RS</item>
+            <item>IP-Viper</item>
+            <item>IP-TS</item>
+            <item>IP-CS</item>
+            <item>CCUS</item>
+            <item>CCUO</item>
+    </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>

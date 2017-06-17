@@ -49,8 +49,11 @@
             android:label="Bombardier Transportation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="bt.com.bombardiertransportation.MainActivity"
-            android:label="@string/title_activity_main" />
+            android:name="bt.com.bombardiertransportation.Aboutus"
+            android:label="About Us" />
+        <activity
+            android:name="bt.com.bombardiertransportation.Privacy"
+            android:label="Privacy Policy" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

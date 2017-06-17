@@ -20,6 +20,11 @@ import android.support.annotation.NonNull;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import bt.com.bombardiertransportation.Fragments.Ownership;
+import bt.com.bombardiertransportation.Fragments.QRdevice;
+import bt.com.bombardiertransportation.Fragments.release;
+import bt.com.bombardiertransportation.Fragments.search;
+
 public class GenerateQRforDevice extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -51,6 +56,12 @@ public class GenerateQRforDevice extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        search frg1 = new search();
+        if (frg1 != null) {
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, frg1);
+            ft.commit();
+        }
         //get firebase auth instance
         auth = FirebaseAuth.getInstance();
 
@@ -65,7 +76,7 @@ public class GenerateQRforDevice extends AppCompatActivity
                     finish();
                 }
 
-                displaySelectedScreen(R.id.nav_QRemp);
+                displaySelectedScreen(R.id.nav_QRDevice);
             }
         };
 
@@ -108,10 +119,15 @@ public class GenerateQRforDevice extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        if  (id == R.id.nav_QRDevice)
+        if  (id == R.id.about)
         {
-            Intent intent = new Intent(GenerateQRforDevice.this, MainActivity.class);
+            Intent intent = new Intent(GenerateQRforDevice.this, Aboutus.class);
             startActivity(intent);
+        }
+        else if(id == R.id.privacy)
+        {
+            Intent intent2 = new Intent(GenerateQRforDevice.this, Privacy.class);
+            startActivity(intent2);
         }
         else if(id == R.id.logout)
         {
@@ -133,14 +149,17 @@ public class GenerateQRforDevice extends AppCompatActivity
 
         //initializing the fragment object which is selected
         switch (itemId) {
-            case R.id.nav_QRemp:
-                fragment = new frag1();
+            case R.id.search:
+                fragment = new search();
+                break;
+            case R.id.nav_QRDevice:
+                fragment = new QRdevice();
                 break;
             case R.id.nav_Ownership:
-                fragment = new frag2();
+                fragment = new Ownership();
                 break;
             case R.id.release_device:
-                fragment = new frag3();
+                fragment = new release();
                 break;
         }
 

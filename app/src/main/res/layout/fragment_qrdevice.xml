@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bt.com.bombardiertransportation.Fragments.QRdevice">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/devicetypeqr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Device Type" />
+
+        <Spinner
+            android:id="@+id/spinner_devicetypeqr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/devicetypeqr"
+            android:layout_toRightOf="@+id/devicetypeqr"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/deviceid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/devicetypeqr"
+            android:layout_alignStart="@+id/devicetypeqr"
+            android:layout_alignTop="@+id/devicetypeqr"
+            android:layout_marginTop="70dp"
+            android:text="Device ID" />
+
+        <EditText
+            android:id="@+id/editDeviceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinner_devicetypeqr"
+            android:layout_alignStart="@+id/spinner_devicetypeqr"
+            android:layout_alignTop="@+id/spinner_devicetypeqr"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:hint="Device ID"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/uniqueid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/deviceid"
+            android:layout_alignRight="@+id/deviceid"
+            android:layout_below="@+id/deviceid"
+            android:layout_marginTop="40dp"
+            android:text="Unique ID" />
+
+        <EditText
+            android:id="@+id/editUniqueId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editDeviceID"
+            android:layout_alignStart="@+id/editDeviceID"
+            android:layout_alignTop="@+id/editDeviceID"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Unique ID"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/ownerinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/uniqueid"
+            android:layout_alignStart="@+id/uniqueid"
+            android:layout_below="@+id/editUniqueId"
+            android:layout_marginTop="20dp"
+            android:text="Owner" />
+
+        <EditText
+            android:id="@+id/editOwnerid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editUniqueId"
+            android:layout_alignStart="@+id/editUniqueId"
+            android:layout_alignTop="@+id/editUniqueId"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Owner Email ID"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/generateQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editOwnerid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Generate QR" />
+
+    </RelativeLayout>
+</FrameLayout>
