@@ -34,7 +34,10 @@
         <activity
             android:name=".Privacy"
             android:label="Privacy Policy" />
-        <activity android:name=".QRcreate" android:label="QR code Generated"></activity>
+        <activity
+            android:name=".QRcreate"
+            android:label="QR code Generated" />
+        <activity android:name=".ReleaseDevice"></activity>
     </application>
 
 </manifest>

@@ -26,11 +26,14 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
+import org.w3c.dom.Text;
+
 import bt.com.bombardiertransportation.QRcreate;
 import bt.com.bombardiertransportation.R;
 import bt.com.bombardiertransportation.device;
 
 import static bt.com.bombardiertransportation.R.id.devicetype;
+import static bt.com.bombardiertransportation.R.id.spinner_devicetypeqr;
 
 
 public class QRdevice extends Fragment {
@@ -38,6 +41,7 @@ public class QRdevice extends Fragment {
     EditText deviceid;
     EditText uniqueid;
     EditText ownerinfo;
+    Spinner devicetype;
     String Text;
 
     Button button;
@@ -75,16 +79,17 @@ public class QRdevice extends Fragment {
         uniqueid = (EditText)this.getActivity().findViewById(R.id.editUniqueId);
         deviceid= (EditText)this.getActivity().findViewById(R.id.editDeviceID);
         ownerinfo = (EditText)this.getActivity().findViewById(R.id.editOwnerid);
-
+        devicetype = (Spinner)this.getActivity().findViewById(R.id.spinner_devicetypeqr);
         //final String Text = dropdown.getSelectedItem().toString();
         button.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View view) {
+
                 Device = new device();
                 Device.deviceId = deviceid.getText().toString().trim();
                 Device.UniqueId = uniqueid.getText().toString().trim();
                 Device.Owner = ownerinfo.getText().toString().trim();
-
+                Device.deviceType= devicetype.getSelectedItem().toString();
                 Gson gson = new Gson();
                 jsonString = gson.toJson(Device);
                 Toast.makeText(getActivity(), jsonString, Toast.LENGTH_LONG).show();
