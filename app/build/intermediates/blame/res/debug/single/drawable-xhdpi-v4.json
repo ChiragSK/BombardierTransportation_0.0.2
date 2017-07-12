@@ -164,12 +164,12 @@
         "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\dfc5e459b4681dd803bf96add93faa0ca48e9111\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\kripatel\\.android\\build-cache\\dfc5e459b4681dd803bf96add93faa0ca48e9111\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
