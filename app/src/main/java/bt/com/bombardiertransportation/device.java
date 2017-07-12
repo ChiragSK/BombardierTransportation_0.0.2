@@ -7,18 +7,25 @@ import android.widget.EditText;
  * Created by kripatel on 6/17/2017.
  */
 
-public class device {
+public class Device {
 
+    public String type;
     public String deviceId;
-    public String UniqueId;
-    public String Owner;
-    public String deviceType;
+    public String serialNo;
+    public String owner;
+    public String currentlyWith;
 
-    public device(){
-        this.deviceId = new String();
-        this.UniqueId = new String();
-        this.Owner = new String();
-        this.deviceType=new String();
+
+    // Default constructor required for calls to
+    // DataSnapshot.getValue(Device.class)
+    public Device() {
     }
 
+    public Device(String type, String deviceId, String serialNo, String owner, String currentlyWith) {
+        this.type = type;
+        this.deviceId = deviceId;
+        this.serialNo = serialNo;
+        this.owner = owner;
+        this.currentlyWith = currentlyWith;
+    }
 }

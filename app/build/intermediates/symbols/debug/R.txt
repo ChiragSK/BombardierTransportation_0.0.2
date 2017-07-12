@@ -859,7 +859,7 @@ int id disableHome 0x7f0f0022
 int id drawer_layout 0x7f0f008d
 int id editDeviceID 0x7f0f00ac
 int id editOwnerid 0x7f0f00b0
-int id editUniqueId 0x7f0f00ae
+int id editSerialNo 0x7f0f00ae
 int id edit_passwordID 0x7f0f0096
 int id edit_query 0x7f0f007e
 int id edit_usernameId 0x7f0f0094
@@ -951,6 +951,7 @@ int id search_voice_btn 0x7f0f0089
 int id searchbt 0x7f0f00b4
 int id select_dialog_listview 0x7f0f008a
 int id sendemail 0x7f0f0099
+int id serialNo 0x7f0f00ad
 int id shortcut 0x7f0f0074
 int id showCustom 0x7f0f0024
 int id showHome 0x7f0f0025
@@ -993,7 +994,6 @@ int id topPanel 0x7f0f006e
 int id touch_outside 0x7f0f009f
 int id transition_current_scene 0x7f0f000b
 int id transition_scene_layoutid_cache 0x7f0f000c
-int id uniqueid 0x7f0f00ad
 int id up 0x7f0f000d
 int id useLogo 0x7f0f0027
 int id username_id 0x7f0f0092

@@ -3368,7 +3368,7 @@ containing a value of this type.
         public static final int drawer_layout=0x7f0f008d;
         public static final int editDeviceID=0x7f0f00ac;
         public static final int editOwnerid=0x7f0f00b0;
-        public static final int editUniqueId=0x7f0f00ae;
+        public static final int editSerialNo=0x7f0f00ae;
         public static final int edit_passwordID=0x7f0f0096;
         public static final int edit_query=0x7f0f007e;
         public static final int edit_usernameId=0x7f0f0094;
@@ -3460,6 +3460,7 @@ containing a value of this type.
         public static final int searchbt=0x7f0f00b4;
         public static final int select_dialog_listview=0x7f0f008a;
         public static final int sendemail=0x7f0f0099;
+        public static final int serialNo=0x7f0f00ad;
         public static final int shortcut=0x7f0f0074;
         public static final int showCustom=0x7f0f0024;
         public static final int showHome=0x7f0f0025;
@@ -3502,7 +3503,6 @@ containing a value of this type.
         public static final int touch_outside=0x7f0f009f;
         public static final int transition_current_scene=0x7f0f000b;
         public static final int transition_scene_layoutid_cache=0x7f0f000c;
-        public static final int uniqueid=0x7f0f00ad;
         public static final int up=0x7f0f000d;
         public static final int useLogo=0x7f0f0027;
         public static final int username_id=0x7f0f0092;

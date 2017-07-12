@@ -30,7 +30,7 @@ import org.w3c.dom.Text;
 
 import bt.com.bombardiertransportation.QRcreate;
 import bt.com.bombardiertransportation.R;
-import bt.com.bombardiertransportation.device;
+import bt.com.bombardiertransportation.Device;
 
 import static bt.com.bombardiertransportation.R.id.devicetype;
 import static bt.com.bombardiertransportation.R.id.spinner_devicetypeqr;
@@ -39,7 +39,7 @@ import static bt.com.bombardiertransportation.R.id.spinner_devicetypeqr;
 public class QRdevice extends Fragment {
 
     EditText deviceid;
-    EditText uniqueid;
+    EditText serialNo;
     EditText ownerinfo;
     Spinner devicetype;
     String Text;
@@ -47,7 +47,7 @@ public class QRdevice extends Fragment {
     Button button;
     public static String jsonString = new String();
 
-    device Device;
+    Device Device;
     public QRdevice() {
         // Required empty public constructor
     }
@@ -76,7 +76,7 @@ public class QRdevice extends Fragment {
         getActivity().setTitle("Generate QR code");
 
         button = (Button)this.getActivity().findViewById(R.id.generateQr);
-        uniqueid = (EditText)this.getActivity().findViewById(R.id.editUniqueId);
+        serialNo = (EditText)this.getActivity().findViewById(R.id.editSerialNo);
         deviceid= (EditText)this.getActivity().findViewById(R.id.editDeviceID);
         ownerinfo = (EditText)this.getActivity().findViewById(R.id.editOwnerid);
         devicetype = (Spinner)this.getActivity().findViewById(R.id.spinner_devicetypeqr);
@@ -85,11 +85,11 @@ public class QRdevice extends Fragment {
         {
             public void onClick(View view) {
 
-                Device = new device();
+                Device = new Device();
                 Device.deviceId = deviceid.getText().toString().trim();
-                Device.UniqueId = uniqueid.getText().toString().trim();
-                Device.Owner = ownerinfo.getText().toString().trim();
-                Device.deviceType= devicetype.getSelectedItem().toString();
+                Device.serialNo = serialNo.getText().toString().trim();
+                Device.owner = ownerinfo.getText().toString().trim();
+                Device.type= devicetype.getSelectedItem().toString();
                 Gson gson = new Gson();
                 jsonString = gson.toJson(Device);
                 Toast.makeText(getActivity(), jsonString, Toast.LENGTH_LONG).show();
