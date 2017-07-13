@@ -1,40 +1,25 @@
 package bt.com.bombardiertransportation.Fragments;
 
-import android.bluetooth.BluetoothClass;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.gson.Gson;
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.MultiFormatWriter;
-import com.google.zxing.WriterException;
-import com.google.zxing.common.BitMatrix;
-import com.journeyapps.barcodescanner.BarcodeEncoder;
 
-import org.w3c.dom.Text;
-
+import bt.com.bombardiertransportation.Device;
 import bt.com.bombardiertransportation.QRcreate;
 import bt.com.bombardiertransportation.R;
-import bt.com.bombardiertransportation.Device;
-
-import static bt.com.bombardiertransportation.R.id.devicetype;
-import static bt.com.bombardiertransportation.R.id.spinner_devicetypeqr;
-
 
 public class QRdevice extends Fragment {
 
@@ -43,6 +28,8 @@ public class QRdevice extends Fragment {
     EditText ownerinfo;
     Spinner devicetype;
     String Text;
+
+    private DatabaseReference mDatabase;
 
     Button button;
     public static String jsonString = new String();
@@ -85,14 +72,19 @@ public class QRdevice extends Fragment {
         {
             public void onClick(View view) {
 
-                Device = new Device();
-                Device.deviceId = deviceid.getText().toString().trim();
-                Device.serialNo = serialNo.getText().toString().trim();
-                Device.owner = ownerinfo.getText().toString().trim();
-                Device.type= devicetype.getSelectedItem().toString();
+                Device device = new Device();
+                device.deviceId = deviceid.getText().toString().trim();
+                device.serialNo = serialNo.getText().toString().trim();
+                device.owner = ownerinfo.getText().toString().trim();
+                device.type= devicetype.getSelectedItem().toString();
+
+                mDatabase = FirebaseDatabase.getInstance().getReference();
+                mDatabase.child("devices").push().setValue(device);
+                Toast.makeText(getActivity(), "Added to database", Toast.LENGTH_LONG).show();
+
                 Gson gson = new Gson();
-                jsonString = gson.toJson(Device);
-                Toast.makeText(getActivity(), jsonString, Toast.LENGTH_LONG).show();
+                jsonString = gson.toJson(device);
+                //Toast.makeText(getActivity(), jsonString, Toast.LENGTH_LONG).show();
 
                 Intent intent = new Intent(getActivity(), QRcreate.class);
                 intent.putExtra("qrstring", jsonString);

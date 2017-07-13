@@ -19,6 +19,7 @@ public class Device {
     // Default constructor required for calls to
     // DataSnapshot.getValue(Device.class)
     public Device() {
+        this.currentlyWith="abc";
     }
 
     public Device(String type, String deviceId, String serialNo, String owner, String currentlyWith) {
