@@ -80,7 +80,7 @@ public class QRdevice extends Fragment {
 
                 mDatabase = FirebaseDatabase.getInstance().getReference();
                 mDatabase.child("devices").push().setValue(device);
-                Toast.makeText(getActivity(), "Added to database", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getActivity(), "Added to database", Toast.LENGTH_LONG).show();
 
                 Gson gson = new Gson();
                 jsonString = gson.toJson(device);
