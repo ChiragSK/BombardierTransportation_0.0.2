@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
