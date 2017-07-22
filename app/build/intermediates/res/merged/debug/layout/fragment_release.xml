@@ -1,13 +1,106 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="bt.com.bombardiertransportation.Fragments.release">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/release_devicetype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="46dp"
+        android:text="Device Type" />
+
+    <EditText
+        android:id="@+id/editrelease_devicetype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/release_uniqueid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/release_devicetype"
+        android:layout_alignStart="@+id/release_devicetype"
+        android:layout_below="@+id/editrelease_devicetype"
+        android:layout_marginTop="29dp"
+        android:text="Unique ID" />
+
+    <EditText
+        android:id="@+id/editrelease_uniqueId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editrelease_devicetype"
+        android:layout_alignRight="@+id/editrelease_devicetype"
+        android:layout_below="@+id/editrelease_devicetype"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/release_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/release_uniqueid"
+        android:layout_alignStart="@+id/release_uniqueid"
+        android:layout_below="@+id/editrelease_uniqueId"
+        android:layout_marginTop="29dp"
+        android:text="Owner" />
+
+    <EditText
+        android:id="@+id/editOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editrelease_uniqueId"
+        android:layout_alignStart="@+id/editrelease_uniqueId"
+        android:layout_below="@+id/editrelease_uniqueId"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <TextView
+        android:id="@+id/Ownerpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Owner \nPassword"
+        android:layout_below="@+id/editOwner"
+        android:layout_alignLeft="@+id/release_owner"
+        android:layout_alignStart="@+id/release_owner" />
+
+    <EditText
+        android:id="@+id/editOwnerpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/Ownerpwd"
+        android:layout_alignLeft="@+id/editOwner"
+        android:layout_alignStart="@+id/editOwner" />
+
+    <Button
+        android:id="@+id/butReleaseDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editOwnerpwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Release Device" />
+</RelativeLayout>

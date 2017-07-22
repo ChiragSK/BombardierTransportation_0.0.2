@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml
@@ -33,7 +33,7 @@ MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\kripatel\.android
 	android:name
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:11:5-41:19
+ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:11:5-40:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kripatel\.android\build-cache\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kripatel\.android\build-cache\ca36515d45ce8aeb4895c7ae14337ab3029120e8\output\AndroidManifest.xml:26:5-20
@@ -111,10 +111,6 @@ ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:39:13-46
 	android:name
 		ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:38:13-37
-activity#bt.com.bombardiertransportation.ReleaseDevice
-ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:40:9-60
-	android:name
-		ADDED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml:40:19-48
 uses-sdk
 INJECTED from D:\AndroidStudioProjects\BombardierTransportation_trunk\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\kripatel\.android\build-cache\3ab37ff9149411ca351bc233ddd3644b631897b4\output\AndroidManifest.xml:21:5-23:62

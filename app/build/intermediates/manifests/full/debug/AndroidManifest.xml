@@ -77,7 +77,6 @@
         <activity
             android:name="bt.com.bombardiertransportation.QRcreate"
             android:label="QR code Generated" />
-        <activity android:name="bt.com.bombardiertransportation.ReleaseDevice" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

@@ -8,12 +8,12 @@
         "source": "C:\\Users\\kripatel\\.android\\build-cache\\dc906a12ca2b188ec0a0d27bfa8fc4a26aa2910c\\output\\res\\layout\\zxing_capture.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_privacy.xml",
@@ -86,10 +86,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_release_device.xml",
-        "source": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\src\\main\\res\\layout\\activity_release_device.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
