@@ -1,7 +1,6 @@
 package bt.com.bombardiertransportation.Fragments;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,18 +13,9 @@ import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 import bt.com.bombardiertransportation.R;
-import bt.com.bombardiertransportation.ReleaseDevice;
 
-import static android.R.attr.data;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link release.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link release#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class release extends Fragment {
     private release release;
     public release() {
@@ -52,11 +42,30 @@ public class release extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
         getActivity().setTitle("Release Device");
+        IntentIntegrator integrator = new IntentIntegrator(getActivity());
+        integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES);
+        integrator.setPrompt("Scan device for release");
+        integrator.setCameraId(0);
+        integrator.setBeepEnabled(false);
+        integrator.setBarcodeImageEnabled(false);
+        integrator.initiateScan();
 
-        Intent intent = new Intent(getActivity(), ReleaseDevice.class);
-        startActivityForResult(intent,1);
 
 
+    }
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
 
+        if (result != null) {
+            if (result.getContents() == null) {
+                System.out.println("Cancelled");
+                Toast.makeText(getActivity(), "You cancelled the scanning!", Toast.LENGTH_LONG).show();
+            } else {
+                System.out.println("Worked: " + result.getContents());
+                Toast.makeText(getActivity(), "scanned: " + result.getContents(), Toast.LENGTH_LONG).show();
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+        }
     }
 }
