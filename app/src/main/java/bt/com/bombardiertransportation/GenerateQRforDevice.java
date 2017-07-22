@@ -25,6 +25,8 @@ import bt.com.bombardiertransportation.Fragments.QRdevice;
 import bt.com.bombardiertransportation.Fragments.release;
 import bt.com.bombardiertransportation.Fragments.search;
 
+import static android.R.attr.data;
+
 public class GenerateQRforDevice extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -38,14 +40,14 @@ public class GenerateQRforDevice extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+     /**   FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        }); */
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -80,8 +82,18 @@ public class GenerateQRforDevice extends AppCompatActivity
             }
         };
 
-    }
 
+    }
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        try {
+            for (Fragment fragment : getSupportFragmentManager().getFragments()) {
+                fragment.onActivityResult(requestCode, resultCode, data);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -107,10 +119,10 @@ public class GenerateQRforDevice extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+      /**  if (id == R.id.action_settings) {
             return true;
         }
-
+        */
         return super.onOptionsItemSelected(item);
     }
 
