@@ -3310,8 +3310,8 @@ containing a value of this type.
         public static final int Owner_Current_OwnerPwd=0x7f0f00ae;
         public static final int Owner_DeviceType=0x7f0f00a8;
         public static final int Owner_ReceiverPassword=0x7f0f00b2;
+        public static final int Owner_SerialNo=0x7f0f00aa;
         public static final int Owner_TransferTo=0x7f0f00b0;
-        public static final int Owner_UniqueID=0x7f0f00aa;
         public static final int Ownerpwd=0x7f0f00c4;
         public static final int about=0x7f0f00ef;
         public static final int action0=0x7f0f00d1;
@@ -3379,8 +3379,8 @@ containing a value of this type.
         public static final int editOwner=0x7f0f00c3;
         public static final int editOwner_Current_ownerpwd=0x7f0f00af;
         public static final int editOwner_ReceiverPwd=0x7f0f00b3;
+        public static final int editOwner_SerialNo=0x7f0f00ab;
         public static final int editOwner_Transferto=0x7f0f00b1;
-        public static final int editOwner_UniqueID=0x7f0f00ab;
         public static final int editOwner_currentOwner=0x7f0f00ad;
         public static final int editOwner_deviceType=0x7f0f00a9;
         public static final int editOwnerid=0x7f0f00bc;

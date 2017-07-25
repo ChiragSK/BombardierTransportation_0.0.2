@@ -4,17 +4,25 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import bt.com.bombardiertransportation.R;
 
 public class Ownership extends Fragment {
+
+    JSONObject scannedObj;
+    TextView deviceType, serialNo;
 
     public Ownership() {
         // Required empty public constructor
@@ -37,6 +45,10 @@ public class Ownership extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
+
+        deviceType = (TextView) this.getActivity().findViewById(R.id.editOwner_deviceType);
+        serialNo = (TextView) this.getActivity().findViewById(R.id.editOwner_SerialNo);
+
         getActivity().setTitle("Ownership Transfer");
         IntentIntegrator integrator = new IntentIntegrator(getActivity());
         integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES);
@@ -56,6 +68,18 @@ public class Ownership extends Fragment {
             } else {
                 System.out.println("Worked: " + result.getContents());
                 Toast.makeText(getActivity(), "scanned: " + result.getContents(), Toast.LENGTH_LONG).show();
+
+                try{
+                    scannedObj = new JSONObject(result.getContents());
+                    deviceType.setText(scannedObj.getString("type"));
+                    serialNo.setText(scannedObj.getString("serialNo"));
+                    Log.w("MYAPP","scannedObj.getString(\"type\")");
+                }catch (JSONException e){
+                    Log.e("MYAPP", "unexpected JSON exception", e);
+                }
+
+
+
             }
         } else {
             super.onActivityResult(requestCode, resultCode, data);

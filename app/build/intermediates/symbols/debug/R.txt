@@ -801,8 +801,8 @@ int id Owner_CurrentOwner 0x7f0f00ac
 int id Owner_Current_OwnerPwd 0x7f0f00ae
 int id Owner_DeviceType 0x7f0f00a8
 int id Owner_ReceiverPassword 0x7f0f00b2
+int id Owner_SerialNo 0x7f0f00aa
 int id Owner_TransferTo 0x7f0f00b0
-int id Owner_UniqueID 0x7f0f00aa
 int id Ownerpwd 0x7f0f00c4
 int id about 0x7f0f00ef
 int id action0 0x7f0f00d1
@@ -870,8 +870,8 @@ int id editDeviceID 0x7f0f00b8
 int id editOwner 0x7f0f00c3
 int id editOwner_Current_ownerpwd 0x7f0f00af
 int id editOwner_ReceiverPwd 0x7f0f00b3
+int id editOwner_SerialNo 0x7f0f00ab
 int id editOwner_Transferto 0x7f0f00b1
-int id editOwner_UniqueID 0x7f0f00ab
 int id editOwner_currentOwner 0x7f0f00ad
 int id editOwner_deviceType 0x7f0f00a9
 int id editOwnerid 0x7f0f00bc

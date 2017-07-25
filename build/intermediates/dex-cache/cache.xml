@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\BombardierTransportation_trunk\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="65fdf407f2c40f9f2409c290c28b8de50cbbbfa6">
-        <dex dex="D:\AndroidStudioProjects\BombardierTransportation_trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ca3fbe9be20b151af825c54b832fa08ae538671\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\BombardierTransportation_trunk\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="D:\AndroidStudioProjects\BombardierTransportation_trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3e4649878c060b5208cb029bc1903b0c7835d40e\classes.dex" />
+        <dex dex="C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7dd589c5e3238781f578c2236fa8bc0d5cdf5f59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e22b1a9e00462ea639ab3267dfa37991914d9bf3">
+        <dex dex="C:\Users\Chirag\Documents\BombardierTransportation 0.0.2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ac8abf08fe1cdc5d7ddff199cbd5e21fc0d78c26\classes.dex" />
     </item>
 
 </items>
