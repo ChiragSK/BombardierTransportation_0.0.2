@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\3ab37ff9149411ca351bc233ddd3644b631897b4\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\e4094a2b164dc5edd193a7889823171835fbc431\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }

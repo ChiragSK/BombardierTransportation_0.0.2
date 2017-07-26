@@ -1,23 +1,11 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
@@ -32,40 +20,12 @@
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\3ab37ff9149411ca351bc233ddd3644b631897b4\\output\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
@@ -78,10 +38,6 @@
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
         "source": "C:\\Users\\Chirag\\.android\\build-cache\\62bc66f689ab564a44f29129a1ee7560f69262c3\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\kripatel\\.android\\build-cache\\2fb10aeaa3ddd1233bd55f80d709cd3ec4daa7e8\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",

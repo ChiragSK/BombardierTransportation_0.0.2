@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_search_black_24dp.png",
-        "source": "D:\\AndroidStudioProjects\\BombardierTransportation_trunk\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_search_black_24dp.png",
         "source": "C:\\Users\\Chirag\\Documents\\BombardierTransportation 0.0.2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_24dp.png"
     }

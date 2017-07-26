@@ -11,6 +11,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
@@ -22,7 +28,9 @@ import bt.com.bombardiertransportation.R;
 public class Ownership extends Fragment {
 
     JSONObject scannedObj;
-    TextView deviceType, serialNo;
+    TextView deviceType, serialNo, owner;
+
+    private DatabaseReference mDatabase;
 
     public Ownership() {
         // Required empty public constructor
@@ -46,8 +54,11 @@ public class Ownership extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
 
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
         deviceType = (TextView) this.getActivity().findViewById(R.id.editOwner_deviceType);
         serialNo = (TextView) this.getActivity().findViewById(R.id.editOwner_SerialNo);
+        owner = (TextView) this.getActivity().findViewById(R.id.editOwner_currentOwner);
 
         getActivity().setTitle("Ownership Transfer");
         IntentIntegrator integrator = new IntentIntegrator(getActivity());
@@ -58,7 +69,7 @@ public class Ownership extends Fragment {
         integrator.setBarcodeImageEnabled(false);
         integrator.initiateScan();
        }
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, final Intent data) {
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
 
         if (result != null) {
@@ -73,6 +84,26 @@ public class Ownership extends Fragment {
                     scannedObj = new JSONObject(result.getContents());
                     deviceType.setText(scannedObj.getString("type"));
                     serialNo.setText(scannedObj.getString("serialNo"));
+                    owner.setText(scannedObj.getString("owner"));
+
+                    Query query = mDatabase.child("devices").orderByChild("serialNo").equalTo(scannedObj.getString("serialNo"));
+                    query.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            if (dataSnapshot.exists()) {
+                                for (DataSnapshot issue : dataSnapshot.getChildren()) {
+                                    String obtainedOwner = dataSnapshot.child("owner").getValue(String.class);
+
+                                }
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+
                     Log.w("MYAPP","scannedObj.getString(\"type\")");
                 }catch (JSONException e){
                     Log.e("MYAPP", "unexpected JSON exception", e);
