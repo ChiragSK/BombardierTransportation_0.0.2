@@ -17,7 +17,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
-            android:label="Bombardier Transportation">
+            android:label="Bombardier Transportation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,16 +28,20 @@
         <activity
             android:name=".GenerateQRforDevice"
             android:label="Bombardier Transportation"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Aboutus"
-            android:label="About Us" />
+            android:label="About Us"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Privacy"
-            android:label="Privacy Policy" />
+            android:label="Privacy Policy"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".QRcreate"
-            android:label="QR code Generated" />
+            android:label="QR code Generated"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

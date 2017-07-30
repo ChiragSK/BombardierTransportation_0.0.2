@@ -57,7 +57,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="bt.com.bombardiertransportation.LoginActivity"
-            android:label="Bombardier Transportation" >
+            android:label="Bombardier Transportation"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -67,16 +68,20 @@
         <activity
             android:name="bt.com.bombardiertransportation.GenerateQRforDevice"
             android:label="Bombardier Transportation"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="bt.com.bombardiertransportation.Aboutus"
-            android:label="About Us" />
+            android:label="About Us"
+            android:screenOrientation="portrait" />
         <activity
             android:name="bt.com.bombardiertransportation.Privacy"
-            android:label="Privacy Policy" />
+            android:label="Privacy Policy"
+            android:screenOrientation="portrait" />
         <activity
             android:name="bt.com.bombardiertransportation.QRcreate"
-            android:label="QR code Generated" />
+            android:label="QR code Generated"
+            android:screenOrientation="portrait" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

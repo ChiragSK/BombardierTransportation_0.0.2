@@ -89,6 +89,7 @@ public class search extends Fragment {
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
+
                 getUpdates(dataSnapshot);
             }
 
