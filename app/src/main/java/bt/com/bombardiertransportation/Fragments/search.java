@@ -1,12 +1,8 @@
 package bt.com.bombardiertransportation.Fragments;
 
-import android.content.Context;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.widget.ListViewAutoScrollHelper;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
-
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -32,7 +28,8 @@ public class search extends Fragment {
 
     Button button;
     private DatabaseReference mDatabase;
-    ArrayList<String> devices = new ArrayList<>();
+    ArrayList<Device> devices = new ArrayList<>();
+    ArrayAdapter adapter;
     ListView lv;
     Spinner spinner;
 
@@ -115,18 +112,32 @@ public class search extends Fragment {
             d.setType(dataSnapshot.getValue(Device.class).getType());
             if(d.getType().equals(spinner.getSelectedItem().toString())) {
                 d.setSerialNo(dataSnapshot.getValue(Device.class).getSerialNo());
-                devices.add(d.getSerialNo());
+                d.setOwner(dataSnapshot.getValue(Device.class).getOwner());
+                devices.add(d);
             }
         }
 
         if (devices.size()>0)
         {
-            ArrayAdapter adapter = new ArrayAdapter(getActivity(),android.R.layout.simple_expandable_list_item_1,devices);
+            adapter = new ArrayAdapter(getActivity(),android.R.layout.simple_list_item_2, android.R.id.text1, devices){
+                @Override
+                public View getView(int position, View convertView, ViewGroup parent) {
+                    View view = super.getView(position, convertView, parent);
+                    TextView text1 = (TextView) view.findViewById(android.R.id.text1);
+                    TextView text2 = (TextView) view.findViewById(android.R.id.text2);
+
+                    text1.setText(devices.get(position).getSerialNo());
+                    text2.setText("Owner: " + devices.get(position).getOwner());
+                    return view;
+                }
+            };
             lv.setAdapter(adapter);
         }
         else
         {
             Toast.makeText(getActivity(),"No data", Toast.LENGTH_SHORT).show();
+            devices.clear();
+            adapter.notifyDataSetChanged();
         }
     }
 }
