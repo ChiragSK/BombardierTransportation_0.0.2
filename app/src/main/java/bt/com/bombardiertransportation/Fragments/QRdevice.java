@@ -77,6 +77,7 @@ public class QRdevice extends Fragment {
                 device.serialNo = serialNo.getText().toString().trim();
                 device.owner = ownerinfo.getText().toString().trim();
                 device.type= devicetype.getSelectedItem().toString();
+                device.currentlyWith = device.owner;
 
                 mDatabase = FirebaseDatabase.getInstance().getReference();
                 mDatabase.child("devices").push().setValue(device);

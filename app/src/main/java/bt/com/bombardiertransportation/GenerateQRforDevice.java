@@ -78,7 +78,7 @@ public class GenerateQRforDevice extends AppCompatActivity
                     finish();
                 }
 
-                displaySelectedScreen(R.id.nav_QRDevice);
+                //displaySelectedScreen(R.id.nav_QRDevice);
             }
         };
 
