@@ -38,8 +38,14 @@
         <item>IP-Viper</item>
         <item>IP-TS</item>
         <item>IP-CS</item>
-        <item>CCUS</item>
-        <item>CCUO</item>
+        <item>VCU-S</item>
+        <item>VCU-C</item>
+        <item>DCU2</item>
+        <item>MCG</item>
+        <item>HMI-410</item>
+        <item>HMI-411</item>
+
+
     </string-array>
 
 

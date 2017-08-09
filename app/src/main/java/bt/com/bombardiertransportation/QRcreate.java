@@ -3,6 +3,7 @@ package bt.com.bombardiertransportation;
 import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -17,6 +18,7 @@ import bt.com.bombardiertransportation.Fragments.QRdevice;
 public class QRcreate extends AppCompatActivity {
 
     private ImageView image;
+    private EditText qrgenerated;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,8 @@ public class QRcreate extends AppCompatActivity {
             Bitmap bitmap = barcodeEncoder.createBitmap(bitMatrix);
             image= (ImageView)this.findViewById(R.id.imageView);
             image.setImageBitmap(bitmap);
+            qrgenerated = (EditText)findViewById(R.id.QRgenerated);
+            qrgenerated.setText(QRdevice.jsonString);
             Toast.makeText(this,QRdevice.jsonString,Toast.LENGTH_LONG).show();
         }
         catch (WriterException e)

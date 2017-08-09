@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@color/colorPrimary"
     tools:context="bt.com.bombardiertransportation.Aboutus"
     android:layout_centerHorizontal="true">
 
@@ -16,7 +16,7 @@
         android:layout_marginTop="66dp"
         android:textColor="@android:color/white"
         android:textSize="26dp"
-        android:text="Bombardier Transportation \n India Limited \n &#169; 2017 Bombardier Inc. \n All rights reserved \n\n Version 0.0.1\n"
+        android:text="Bombardier Transportation \n India Limited \n &#169; 2017 Bombardier Inc. \n All rights reserved \n\n Version ALPHA 0.0.1\n"
         android:gravity="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -27,5 +27,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/BT"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@mipmap/logo" />
+        app:srcCompat="@mipmap/logo_75noir" />
 </RelativeLayout>
