@@ -808,7 +808,6 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_generate_qrfor_device">GenerateQRforDevice</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_splash_screen">Bombardier Transportation</string>
     <string name="zxing_app_name">Barcode Scanner</string>
     <string name="zxing_button_ok">OK</string>
     <string name="zxing_msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>

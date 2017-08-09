@@ -19,6 +19,11 @@
             android:name=".LoginActivity"
             android:label="Bombardier Transportation"
             android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".GenerateQRforDevice"
@@ -37,16 +42,6 @@
             android:name=".QRcreate"
             android:label="QR code Generated"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".SplashScreen"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="Bombardier Transportation"
-            android:theme="@android:style/Theme.Holo.Light">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter></activity>
     </application>
 
 </manifest>
