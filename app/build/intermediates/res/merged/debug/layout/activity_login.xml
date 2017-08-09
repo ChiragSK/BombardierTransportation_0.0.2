@@ -15,31 +15,14 @@
     <!-- Login progress -->
 
 
-    <RelativeLayout
-        android:layout_width="351dp"
-        android:layout_height="202dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/frameLayout2">
-
-        <ImageView
+    <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
-            android:layout_height="285dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            app:srcCompat="@drawable/btlogo" />
-    </RelativeLayout>
+            android:layout_height="1000px"
+            app:srcCompat="@drawable/logo_bt"
+      android:layout_centerHorizontal="true"
+        />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/relativeLayout"
-        android:layout_marginBottom="40dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true">
-
-    </RelativeLayout>
 
     <TextView
         android:id="@+id/username_id"
@@ -87,9 +70,10 @@
         android:id="@+id/LoginButtonID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/relativeLayout"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="43dp"
+        android:layout_marginBottom="21dp"
         android:onClick="GenerateQRforDevice"
-        android:text="Login" />
+        android:text="Login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

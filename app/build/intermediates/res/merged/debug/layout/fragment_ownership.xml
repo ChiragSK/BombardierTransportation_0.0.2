@@ -14,21 +14,23 @@
             android:layout_marginLeft="40dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="37dp"
-            android:text="Device Type" />
+            android:text="Device Type"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <TextView
             android:id="@+id/editOwner_deviceType"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
             android:layout_alignBaseline="@+id/Owner_DeviceType"
             android:layout_alignBottom="@+id/Owner_DeviceType"
-            android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginRight="22dp"
+            android:layout_alignParentRight="true"
             android:layout_marginEnd="22dp"
-            android:text="Sample Type" />
+            android:layout_marginRight="22dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Sample Type"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <TextView
             android:id="@+id/Owner_SerialNo"
@@ -38,39 +40,43 @@
             android:layout_alignStart="@+id/Owner_DeviceType"
             android:layout_below="@+id/editOwner_deviceType"
             android:layout_marginTop="26dp"
-            android:text="Serial No." />
+            android:text="Serial No."
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <TextView
             android:id="@+id/editOwner_SerialNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:text="Sample SerialNo"
             android:layout_alignBaseline="@+id/Owner_SerialNo"
             android:layout_alignBottom="@+id/Owner_SerialNo"
             android:layout_alignLeft="@+id/editOwner_deviceType"
-            android:layout_alignStart="@+id/editOwner_deviceType" />
+            android:layout_alignStart="@+id/editOwner_deviceType"
+            android:ems="10"
+            android:text="Sample SerialNo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <TextView
             android:id="@+id/Owner_CurrentOwner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Current Owner"
-            android:layout_below="@+id/editOwner_SerialNo"
             android:layout_alignLeft="@+id/Owner_SerialNo"
             android:layout_alignStart="@+id/Owner_SerialNo"
-            android:layout_marginTop="18dp" />
+            android:layout_below="@+id/editOwner_SerialNo"
+            android:layout_marginTop="18dp"
+            android:text="Current Owner"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <TextView
             android:id="@+id/editOwner_currentOwner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:text="Sample Owner"
             android:layout_alignBaseline="@+id/Owner_CurrentOwner"
             android:layout_alignBottom="@+id/Owner_CurrentOwner"
             android:layout_alignLeft="@+id/editOwner_SerialNo"
-            android:layout_alignStart="@+id/editOwner_SerialNo" />
+            android:layout_alignStart="@+id/editOwner_SerialNo"
+            android:ems="10"
+            android:text="Sample Owner"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <TextView
             android:id="@+id/Owner_Current_OwnerPwd"
@@ -80,7 +86,8 @@
             android:layout_alignStart="@+id/Owner_CurrentOwner"
             android:layout_below="@+id/editOwner_currentOwner"
             android:layout_marginTop="25dp"
-            android:text="Current Owner \nPassword" />
+            android:text="Current Owner \nPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <EditText
             android:id="@+id/editOwner_Current_ownerpwd"
@@ -96,11 +103,12 @@
             android:id="@+id/Owner_TransferTo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Transfer To"
             android:layout_alignBaseline="@+id/editOwner_Transferto"
             android:layout_alignBottom="@+id/editOwner_Transferto"
+            android:layout_alignEnd="@+id/Owner_DeviceType"
             android:layout_alignRight="@+id/Owner_DeviceType"
-            android:layout_alignEnd="@+id/Owner_DeviceType" />
+            android:text="Transfer To"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <EditText
             android:id="@+id/editOwner_Transferto"
@@ -118,11 +126,12 @@
             android:id="@+id/Owner_ReceiverPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Owner_TransferTo"
+            android:layout_alignStart="@+id/Owner_TransferTo"
+            android:layout_below="@+id/editOwner_Transferto"
             android:layout_marginTop="14dp"
             android:text="Receiver's \nPassword"
-            android:layout_below="@+id/editOwner_Transferto"
-            android:layout_alignLeft="@+id/Owner_TransferTo"
-            android:layout_alignStart="@+id/Owner_TransferTo" />
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <EditText
             android:id="@+id/editOwner_ReceiverPwd"
