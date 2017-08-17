@@ -11,13 +11,13 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 
 import java.util.ArrayList;
 
@@ -29,7 +29,7 @@ public class search extends Fragment {
     Button button;
     private DatabaseReference mDatabase;
     ArrayList<Device> devices = new ArrayList<>();
-    ArrayAdapter adapter;
+    ArrayAdapter searchAdapter;
     ListView lv;
     Spinner spinner;
 
@@ -62,7 +62,21 @@ public class search extends Fragment {
         lv = (ListView) getView().findViewById(R.id.LV_Search);
         button = (Button) this.getActivity().findViewById(R.id.searchbt);
 
-        mDatabase = FirebaseDatabase.getInstance().getReference();
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("devices");
+
+        searchAdapter = new ArrayAdapter(getActivity(),android.R.layout.simple_list_item_2, android.R.id.text1, devices){
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View view = super.getView(position, convertView, parent);
+                TextView text1 = (TextView) view.findViewById(android.R.id.text1);
+                TextView text2 = (TextView) view.findViewById(android.R.id.text2);
+
+                text1.setText(devices.get(position).getSerialNo());
+                text2.setText("Owner: " + devices.get(position).getOwner());
+                return view;
+            }
+        };
+        lv.setAdapter(searchAdapter);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,10 +87,14 @@ public class search extends Fragment {
     }
 
     public void retreiveData(){
-        mDatabase.addChildEventListener(new ChildEventListener() {
+
+        devices.clear();
+        searchAdapter.notifyDataSetChanged();
+        Query queryRef = mDatabase.orderByChild("type").equalTo(spinner.getSelectedItem().toString());
+        queryRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                getUpdates(dataSnapshot);
+                getUpdates(dataSnapshot.getValue(Device.class));
             }
 
             @Override
@@ -87,12 +105,12 @@ public class search extends Fragment {
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
 
-                getUpdates(dataSnapshot);
+                //getUpdates(dataSnapshot);
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-                getUpdates(dataSnapshot);
+                //getUpdates(dataSnapshot);
             }
 
             @Override
@@ -102,42 +120,16 @@ public class search extends Fragment {
         });
     }
 
-    private void getUpdates(DataSnapshot ds)
+    private void getUpdates(Device d)
     {
-        devices.clear();
-
-        for(DataSnapshot dataSnapshot: ds.getChildren())
-        {
-            Device d = new Device();
-            d.setType(dataSnapshot.getValue(Device.class).getType());
-            if(d.getType().equals(spinner.getSelectedItem().toString())) {
-                d.setSerialNo(dataSnapshot.getValue(Device.class).getSerialNo());
-                d.setOwner(dataSnapshot.getValue(Device.class).getOwner());
-                devices.add(d);
-            }
+        Device tempdev = new Device();
+        tempdev.setType(d.getType());
+        if(tempdev.getType().equals(spinner.getSelectedItem().toString())) {
+            tempdev.setSerialNo(d.getSerialNo());
+            tempdev.setOwner(d.getOwner());
+            devices.add(tempdev);
         }
+        searchAdapter.notifyDataSetChanged();
 
-        if (devices.size()>0)
-        {
-            adapter = new ArrayAdapter(getActivity(),android.R.layout.simple_list_item_2, android.R.id.text1, devices){
-                @Override
-                public View getView(int position, View convertView, ViewGroup parent) {
-                    View view = super.getView(position, convertView, parent);
-                    TextView text1 = (TextView) view.findViewById(android.R.id.text1);
-                    TextView text2 = (TextView) view.findViewById(android.R.id.text2);
-
-                    text1.setText(devices.get(position).getSerialNo());
-                    text2.setText("Owner: " + devices.get(position).getOwner());
-                    return view;
-                }
-            };
-            lv.setAdapter(adapter);
-        }
-        else
-        {
-            Toast.makeText(getActivity(),"No data", Toast.LENGTH_SHORT).show();
-            devices.clear();
-            adapter.notifyDataSetChanged();
-        }
     }
 }
