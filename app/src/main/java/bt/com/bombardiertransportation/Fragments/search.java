@@ -27,7 +27,7 @@ import bt.com.bombardiertransportation.R;
 public class search extends Fragment {
 
     Button button;
-    private DatabaseReference mDatabase;
+    private DatabaseReference deviceReference;
     ArrayList<Device> devices = new ArrayList<>();
     ArrayAdapter searchAdapter;
     ListView lv;
@@ -62,7 +62,7 @@ public class search extends Fragment {
         lv = (ListView) getView().findViewById(R.id.LV_Search);
         button = (Button) this.getActivity().findViewById(R.id.searchbt);
 
-        mDatabase = FirebaseDatabase.getInstance().getReference().child("devices");
+        deviceReference = FirebaseDatabase.getInstance().getReference().child("devices");
 
         searchAdapter = new ArrayAdapter(getActivity(),android.R.layout.simple_list_item_2, android.R.id.text1, devices){
             @Override
@@ -84,13 +84,14 @@ public class search extends Fragment {
                 retreiveData();
             }
         });
+
     }
 
     public void retreiveData(){
 
         devices.clear();
         searchAdapter.notifyDataSetChanged();
-        Query queryRef = mDatabase.orderByChild("type").equalTo(spinner.getSelectedItem().toString());
+        Query queryRef = deviceReference.orderByChild("type").equalTo(spinner.getSelectedItem().toString());
         queryRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
