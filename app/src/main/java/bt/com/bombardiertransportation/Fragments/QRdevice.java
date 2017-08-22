@@ -8,16 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
 
 import bt.com.bombardiertransportation.Device;
@@ -28,11 +25,11 @@ public class QRdevice extends Fragment {
 
     EditText deviceid;
     EditText serialNo;
-    AutoCompleteTextView ownerinfo;
+    EditText ownerinfo;
     Spinner devicetype;
     String Text;
 
-    private DatabaseReference mDatabase,userReference;
+    private DatabaseReference mDatabase;
 
     Button button;
     public static String jsonString = new String();
@@ -68,29 +65,9 @@ public class QRdevice extends Fragment {
         button = (Button)this.getActivity().findViewById(R.id.generateQr);
         serialNo = (EditText)this.getActivity().findViewById(R.id.editSerialNo);
         deviceid= (EditText)this.getActivity().findViewById(R.id.editDeviceID);
+        ownerinfo = (EditText)this.getActivity().findViewById(R.id.editOwnerid);
         devicetype = (Spinner)this.getActivity().findViewById(R.id.spinner_devicetypeqr);
         //final String Text = dropdown.getSelectedItem().toString();
-
-        userReference = FirebaseDatabase.getInstance().getReference().child("users");
-        final ArrayAdapter<String> autoCompleteUsers = new ArrayAdapter<>(getActivity(),android.R.layout.simple_list_item_1);
-        userReference.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                for (DataSnapshot tempSnapshot : dataSnapshot.getChildren()){
-                    String userName = tempSnapshot.child("name").getValue(String.class);
-                    autoCompleteUsers.add(userName);
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-            }
-        });
-        ownerinfo = (AutoCompleteTextView)this.getActivity().findViewById(R.id.editOwnerid);
-        ownerinfo.setThreshold(1);
-        ownerinfo.setAdapter(autoCompleteUsers);
-
-
         button.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View view) {
@@ -116,5 +93,5 @@ public class QRdevice extends Fragment {
 
             }  });
 
-    }
 }
+    }
