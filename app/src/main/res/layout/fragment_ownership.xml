@@ -21,16 +21,15 @@
             android:id="@+id/editOwner_deviceType"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/Owner_DeviceType"
-            android:layout_alignBottom="@+id/Owner_DeviceType"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginEnd="22dp"
-            android:layout_marginRight="22dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Sample Type"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_alignBaseline="@+id/Owner_DeviceType"
+            android:layout_alignBottom="@+id/Owner_DeviceType"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:id="@+id/Owner_SerialNo"
@@ -52,7 +51,6 @@
             android:layout_alignLeft="@+id/editOwner_deviceType"
             android:layout_alignStart="@+id/editOwner_deviceType"
             android:ems="10"
-            android:text="Sample SerialNo"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <TextView
@@ -63,7 +61,7 @@
             android:layout_alignStart="@+id/Owner_SerialNo"
             android:layout_below="@+id/editOwner_SerialNo"
             android:layout_marginTop="18dp"
-            android:text="Current Owner"
+            android:text="Owner"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <TextView
@@ -75,7 +73,6 @@
             android:layout_alignLeft="@+id/editOwner_SerialNo"
             android:layout_alignStart="@+id/editOwner_SerialNo"
             android:ems="10"
-            android:text="Sample Owner"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <TextView
@@ -86,7 +83,7 @@
             android:layout_alignStart="@+id/Owner_CurrentOwner"
             android:layout_below="@+id/editOwner_currentOwner"
             android:layout_marginTop="25dp"
-            android:text="Current Owner \nPassword"
+            android:text="Owner's \nPassword"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <EditText
@@ -100,57 +97,91 @@
             android:layout_alignStart="@+id/editOwner_currentOwner" />
 
         <TextView
-            android:id="@+id/Owner_TransferTo"
+            android:id="@+id/Currently_with"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/editOwner_Transferto"
-            android:layout_alignBottom="@+id/editOwner_Transferto"
-            android:layout_alignEnd="@+id/Owner_DeviceType"
-            android:layout_alignRight="@+id/Owner_DeviceType"
-            android:text="Transfer To"
-            android:textAppearance="@style/TextAppearance.AppCompat" />
+            android:text="Currently With"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_alignBaseline="@+id/editCurrently_with"
+            android:layout_alignBottom="@+id/editCurrently_with"
+            android:layout_alignLeft="@+id/Owner_Current_OwnerPwd"
+            android:layout_alignStart="@+id/Owner_Current_OwnerPwd" />
 
-        <EditText
-            android:id="@+id/editOwner_Transferto"
+        <TextView
+            android:id="@+id/editCurrently_with"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="User Id of Receiver"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="32dp"
             android:layout_below="@+id/editOwner_Current_ownerpwd"
             android:layout_alignLeft="@+id/editOwner_Current_ownerpwd"
             android:layout_alignStart="@+id/editOwner_Current_ownerpwd" />
 
         <TextView
-            android:id="@+id/Owner_ReceiverPassword"
+            android:id="@+id/Owner_Receiver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/Owner_TransferTo"
-            android:layout_alignStart="@+id/Owner_TransferTo"
-            android:layout_below="@+id/editOwner_Transferto"
-            android:layout_marginTop="14dp"
-            android:text="Receiver's \nPassword"
-            android:textAppearance="@style/TextAppearance.AppCompat" />
+            android:layout_marginTop="28dp"
+            android:text="Transfer to"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/Currently_with"
+            android:layout_alignLeft="@+id/Currently_with"
+            android:layout_alignStart="@+id/Currently_with" />
 
         <EditText
-            android:id="@+id/editOwner_ReceiverPwd"
+            android:id="@+id/editOwner_Receiver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword"
-            android:layout_alignBottom="@+id/Owner_ReceiverPassword"
-            android:layout_alignLeft="@+id/editOwner_Transferto"
-            android:layout_alignStart="@+id/editOwner_Transferto" />
+            android:layout_alignBaseline="@+id/Owner_Receiver"
+            android:layout_alignBottom="@+id/Owner_Receiver"
+            android:layout_alignLeft="@+id/editCurrently_with"
+            android:layout_alignStart="@+id/editCurrently_with" />
+
+
+
+        <TextView
+            android:id="@+id/Owner_Receiverpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver's \nPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/editOwner_Receiver"
+            android:layout_alignRight="@+id/Owner_Receiver"
+            android:layout_alignEnd="@+id/Owner_Receiver" />
+
+        <EditText
+            android:id="@+id/editReceiverPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_alignTop="@+id/Owner_Receiverpwd"
+            android:layout_alignLeft="@+id/editOwner_Receiver"
+            android:layout_alignStart="@+id/editOwner_Receiver" />
 
         <Button
             android:id="@+id/Bt_Ownership_transfer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/editOwner_ReceiverPwd"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="55dp"
-            android:text="Ownership Transfer" />
+            android:text="Ownership Transfer"
+            android:layout_below="@+id/editReceiverPassword"
+            android:layout_toRightOf="@+id/Owner_DeviceType"
+            android:layout_toEndOf="@+id/Owner_DeviceType"
+            android:layout_marginTop="32dp" />
+
+        <EditText
+            android:id="@+id/EditOwner_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 </RelativeLayout>
 
 

@@ -53,7 +53,7 @@
             android:layout_alignTop="@+id/spinner_devicetypeqr"
             android:layout_marginTop="70dp"
             android:ems="10"
-            android:hint="Device ID"
+            android:hint="3ESTxxxxxx-xxxx"
             android:inputType="textPersonName" />
 
         <TextView
@@ -64,7 +64,7 @@
             android:layout_alignRight="@+id/deviceid"
             android:layout_below="@+id/deviceid"
             android:layout_marginTop="40dp"
-            android:text="Serial No" />
+            android:text="B21-xxxxxxxxxxx" />
 
         <EditText
             android:id="@+id/editSerialNo"

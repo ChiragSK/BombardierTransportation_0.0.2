@@ -32,8 +32,8 @@ public class QRcreate extends AppCompatActivity {
             Bitmap bitmap = barcodeEncoder.createBitmap(bitMatrix);
             image= (ImageView)this.findViewById(R.id.imageView);
             image.setImageBitmap(bitmap);
-            qrgenerated = (EditText)findViewById(R.id.QRgenerated);
-            qrgenerated.setText(QRdevice.jsonString);
+          //  qrgenerated = (EditText)findViewById(R.id.QRgenerated);
+          //  qrgenerated.setText(QRdevice.jsonString);
             Toast.makeText(this,QRdevice.jsonString,Toast.LENGTH_LONG).show();
         }
         catch (WriterException e)

@@ -36,13 +36,13 @@
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp" />
 
-    <EditText
+   <!-- <EditText
         android:id="@+id/QRgenerated"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textMultiLine"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true" /> -->
 
 </RelativeLayout>

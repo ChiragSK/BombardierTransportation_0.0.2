@@ -16,12 +16,13 @@
 
 
     <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="1000px"
-            app:srcCompat="@drawable/logo_bt"
-      android:layout_centerHorizontal="true"
-        />
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_bt"
+        android:layout_above="@+id/edit_usernameId"
+        android:layout_alignRight="@+id/edit_usernameId"
+        android:layout_alignEnd="@+id/edit_usernameId" />
 
 
     <TextView
@@ -70,10 +71,12 @@
         android:id="@+id/LoginButtonID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="21dp"
+        android:layout_marginBottom="19dp"
         android:onClick="GenerateQRforDevice"
         android:text="Login"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/edit_passwordID"
+        android:layout_alignStart="@+id/edit_passwordID" />
 
 </RelativeLayout>
